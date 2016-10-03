@@ -1,0 +1,53 @@
+This is ApacheBench, Version 2.3 <$Revision: 1748469 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Werkzeug/0.11.10
+Server Hostname:        127.0.0.1
+Server Port:            8069
+
+Document Path:          /forum/help-1/question/how-to-configure-alerts-for-employee-contract-expiration-1
+Document Length:        39547 bytes
+
+Concurrency Level:      10
+Time taken for tests:   23.180 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      39876000 bytes
+HTML transferred:       39547000 bytes
+Requests per second:    43.14 [#/sec] (mean)
+Time per request:       231.795 [ms] (mean)
+Time per request:       23.180 [ms] (mean, across all concurrent requests)
+Transfer rate:          1679.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.4      0       6
+Processing:   142  231  67.5    215    1023
+Waiting:      141  231  67.4    215    1023
+Total:        142  231  67.7    215    1023
+
+Percentage of the requests served within a certain time (ms)
+  50%    215
+  66%    234
+  75%    251
+  80%    262
+  90%    303
+  95%    337
+  98%    388
+  99%    469
+ 100%   1023 (longest request)

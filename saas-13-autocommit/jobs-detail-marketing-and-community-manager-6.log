@@ -1,0 +1,53 @@
+This is ApacheBench, Version 2.3 <$Revision: 1748469 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Werkzeug/0.11.10
+Server Hostname:        127.0.0.1
+Server Port:            8069
+
+Document Path:          /jobs/detail/marketing-and-community-manager-6
+Document Length:        18620 bytes
+
+Concurrency Level:      10
+Time taken for tests:   10.480 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      18949000 bytes
+HTML transferred:       18620000 bytes
+Requests per second:    95.42 [#/sec] (mean)
+Time per request:       104.803 [ms] (mean)
+Time per request:       10.480 [ms] (mean, across all concurrent requests)
+Transfer rate:          1765.69 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       4
+Processing:    64  104  39.1     97    1106
+Waiting:       64  104  39.1     97    1106
+Total:         64  104  39.1     97    1106
+
+Percentage of the requests served within a certain time (ms)
+  50%     97
+  66%    106
+  75%    112
+  80%    118
+  90%    137
+  95%    151
+  98%    170
+  99%    182
+ 100%   1106 (longest request)

@@ -1,0 +1,53 @@
+This is ApacheBench, Version 2.3 <$Revision: 1748469 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Werkzeug/0.11.10
+Server Hostname:        127.0.0.1
+Server Port:            8069
+
+Document Path:          /blog/our-blog-1/post/the-future-of-emails-1
+Document Length:        18975 bytes
+
+Concurrency Level:      10
+Time taken for tests:   40.686 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      19304000 bytes
+HTML transferred:       18975000 bytes
+Requests per second:    24.58 [#/sec] (mean)
+Time per request:       406.862 [ms] (mean)
+Time per request:       40.686 [ms] (mean, across all concurrent requests)
+Transfer rate:          463.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.5      0       7
+Processing:    64  404 367.7    183    2682
+Waiting:       64  404 367.7    183    2682
+Total:         64  404 367.9    183    2689
+
+Percentage of the requests served within a certain time (ms)
+  50%    183
+  66%    462
+  75%    645
+  80%    744
+  90%    953
+  95%   1064
+  98%   1114
+  99%   1206
+ 100%   2689 (longest request)

@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------
+Document Path:          /blog/our-blog-1/post/the-future-of-emails-1
+Failed requests:        0
+Requests per second:    13.13 [#/sec] (mean)
+Time per request:       761.757 [ms] (mean)
+Time per request:       76.176 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /forum/help-1
+Failed requests:        0
+Requests per second:    16.98 [#/sec] (mean)
+Time per request:       588.933 [ms] (mean)
+Time per request:       58.893 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /forum/help-1/question/how-to-configure-alerts-for-employee-contract-expiration-1
+Failed requests:        994
+Requests per second:    4.00 [#/sec] (mean)
+Time per request:       2501.526 [ms] (mean)
+Time per request:       250.153 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /jobs
+Failed requests:        0
+Requests per second:    22.86 [#/sec] (mean)
+Time per request:       437.404 [ms] (mean)
+Time per request:       43.740 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /jobs/detail/marketing-and-community-manager-6
+Failed requests:        0
+Requests per second:    25.64 [#/sec] (mean)
+Time per request:       390.005 [ms] (mean)
+Time per request:       39.001 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /shop
+Failed requests:        0
+Requests per second:    12.96 [#/sec] (mean)
+Time per request:       771.842 [ms] (mean)
+Time per request:       77.184 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /slides/partner-channel-2
+Failed requests:        0
+Requests per second:    20.62 [#/sec] (mean)
+Time per request:       484.978 [ms] (mean)
+Time per request:       48.498 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /website/info
+Failed requests:        0
+Requests per second:    21.28 [#/sec] (mean)
+Time per request:       470.012 [ms] (mean)
+Time per request:       47.001 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /page/website.aboutus
+Failed requests:        0
+Requests per second:    22.95 [#/sec] (mean)
+Time per request:       435.675 [ms] (mean)
+Time per request:       43.567 [ms] (mean, across all concurrent requests)
+--------------------------------------------------------------------------------
+Document Path:          /customers
+Failed requests:        0
+Requests per second:    23.84 [#/sec] (mean)
+Time per request:       419.491 [ms] (mean)
+Time per request:       41.949 [ms] (mean, across all concurrent requests)
