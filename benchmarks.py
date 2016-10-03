@@ -67,6 +67,7 @@ def ab(concurrency=10, requests=1000, confirm=False, pause=0, dir='output'):
 
 @baker.command
 def plot(branches, output=None, dpi=300):
+    """Draw benchmark plot"""
     branches = branches.split(',')
     raw_data = {}
     colors = ['#EE3224', '#F78F1E', '#FFC222', '#EEEF55']  # TODO: generate rainbow
